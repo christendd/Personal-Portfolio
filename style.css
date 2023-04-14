@@ -1,0 +1,130 @@
+:root {
+    --primary-color: none;
+    --overlay-color: rgba(255, 255, 255, 0.9);
+    --menu-speed: 0.75s;
+    --light-text-color: #444;
+    --black-color: #000;
+    --white-color: #fff;
+    --hero-color: black;
+}
+
+
+/* nav bar */
+.navbar {
+    height: 10vh;
+    display: block;
+    width: 80vw;
+    margin: auto;
+
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    /* background: black; */
+}
+#logo {
+    height: 50px;
+    float: left;
+}
+
+
+/* hero home */
+.hero-tag {
+    margin-top: 20vh;
+    text-align: left;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: var(--hero-color);
+    font-family: 'CircularStd', sans-serif;
+}
+
+.contact-hero {
+    margin-top: 0vh;
+    font-size: 3.5em;
+}
+
+.hero-des {
+    padding-right: 60px;
+    text-align: justify;
+    /* font-weight: 800; */
+    letter-spacing: 1.2;
+}
+
+.contact-btn {
+    margin-left: 6px;
+    padding: 5px 10px;
+    color: var(--light-text-color);
+    background: none;
+    border: 2px solid var(--light-text-color);
+    transition: all 1s;
+}
+
+.contact-btn:hover {
+    color: blue;
+    border: 2px solid blue;
+}
+
+.work-btn {
+    margin-left: 6px;
+    padding: 5px 10px;
+    color: var(--light-text-color);
+    background: none;
+    border: 2px solid var(--light-text-color);
+    transition: all 1s;
+}
+
+.work-btn:hover {
+    color: blue;
+    border: 2px solid blue;
+}
+
+#hero-img {
+    margin-top: 50px;
+    width: 90%;
+}
+
+#left-hero {
+    padding-left: 150px;
+}
+
+
+ul {
+    float: right;
+    /* color:white; */
+    list-style: none;
+    padding: 30px 0px;
+}
+
+li {
+    display: inline;
+    font-size: 16px;
+    letter-spacing: 0.1;
+    padding: 0px 15px;
+}
+
+/* social icons and footer */
+.social-icons {
+    margin-top: 30%;
+}
+
+.social-icons a {
+    color: var(--light-text-color);
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.social-icons a:hover {
+    color: blue;
+}
+
+.social-icons i {
+    font-size: 2em;
+    padding: 0px 5px;
+}
+
+.aboutimage {
+    height: 300px;
+}
+
+.tag{
+    display: inline-block;
+}
